@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "poppins";
+  }
+  
+/* header */
+header {
+    font-family: Poppins;
+    width: 100%;
+    height: 115px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    background-color: rgba(80,166,234,1);
+    position: fixed;
+}
+#travel {
+    position: absolute;
+    width: 126px;
+    height: 50.159px;
+    left: 90px;
+    top: 31px;
+    overflow: visible;
+}
+.menu-icon {
+    display: none;
+    color: rgba(80,166,234,1);
+}
+#Top_Nav {
+    position: absolute;
+    width: 753px;
+    height: 40px;
+    left: 522px;
+    top: 36px;
+    overflow: visible;
+}
+
+#Nav_Item {
+    top: 8.5px;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(0,17,33,1);
+    letter-spacing: 0.2px;
+    margin-right: 50px;
+}
+#Nav_Item:hover {
+    color: rgba(255,255,255,1);
+}
+.a {
+    left: 0px;
+}
+.b {
+    left: 147px;
+    border-bottom: 4px solid #fff;
+}
+.c {
+    left: 301px;
+    color: rgba(255,255,255,1);
+}
+.d {
+    left: 456px;
+}
+.sign {
+    background-color: rgba(241,165,1,1);
+    padding: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 102px;
+    left: 630px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    border-radius: 10px;
+    color:#fff;
+}
+.sign:active{
+    background-color: rgb(218, 151, 8);
+}
+/*DESTINASI*/
+
+  a{
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+.destination-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top:60px;
+  }
+  .brush{
+    padding-bottom: 20px;
+  }
+  .content h4{
+    margin: 30px 0 0 0;
+    font-size:20px;
+    font-weight: 600;
+  }
+  
+  .destination{
+    height:300px;
+  }
+  .dest-img {
+    width: 30%;
+    float: left;
+    margin: 30px 0 30px 0; 
+  }
+  .dest-img img{
+    width:100%;
+    border-radius: 10px;
+  }
+  .content {
+    width: 65%;
+    display: inline-block;
+    margin-top: 0;
+    margin-left:50px;
+  }
+  .description{
+    margin:0px 0 30px 0;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  
+  .choose{
+    background-color: #218abb;
+    color:#fff;
+    padding:10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .choose:hover{
+    background-color: #177eae;
+  }
+  
+  
+  .heading h4 {
+    font-weight: normal;
+  }
+  
+  .message-wrapper {
+    padding:80px 0;
+    margin-top:20px;
+    text-align: center;
+  }
+  
+  input{
+    width: 400px;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding:20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    }
+  .title-section{
+    color:#565866;
+    line-height: 30px;
+      }
+  .title-section h1{
+      font-weight: 600;
+      }
+  .email{
+      background-color: white;
+      border-radius:10px;
+      }
+  .email-submit{
+        color:#dee7ec;
+        background-color:#FF7E65;
+        cursor:pointer;
+        border-radius: 10px;
+        width: 200px;
+        font-weight:bolder;
+      }
+  .email-submit:active{
+      background-color: #c75b46;
+      }
+
+      /* footer */
+footer {
+    width: 100%;
+    height: 201.182px;
+    left: 0px;
+    overflow: visible;
+    font-family: Poppins;
+    position: unset;
+}
+#Path_49 {
+    fill: rgba(0,59,129,1);
+    bottom: 0px;
+    width: 100%;
+}
+.Path_49 {
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    height: 201.182px;
+    left: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#white {
+    position: relative;
+    width: 126px;
+    height: 50.159px;
+    left: 90px;
+    top: 100px;
+    overflow: visible;
+}
+#Bottom_Nav {
+    position: relative;
+    top: 50px;
+    left: 622px;
+}
+#Nav_Bottom {
+    top: 8.5px;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(225,225,225,1);
+    letter-spacing: 0.2px;
+    margin-right: 50px;
+}
